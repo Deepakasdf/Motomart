@@ -47,6 +47,4 @@ async function main() {
 
 app.use("/Motomart", routeropen);
 
-app.listen(5300, () => {
-  console.log("ok");
-});
+app.listen(5300, "0.0.0.0");
